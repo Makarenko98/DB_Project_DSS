@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DB">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(localdb)\v11.0:DESKTOP-Q89GAI9\Makarenko">
+          <Created>2017-04-24T18:18:48.0252711+03:00</Created>
+          <Type>SQL</Type>
+          <Server>(localdb)\v11.0</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB>newDatabase</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AlterTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\v11.0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\v11.0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AlterTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataBase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\v11.0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\v11.0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DataBase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DropTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\v11.0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\v11.0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DropTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\v11.0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\v11.0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tables.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
